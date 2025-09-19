@@ -17,7 +17,7 @@ spec:
         - name: nextjs
           image: docker.io/abbasahsansoftbuilds/excelify:latest
           ports:
-            - containerPort: 3000
+            - containerPort: 80
           env:
             - name: NODE_ENV
               value: production
